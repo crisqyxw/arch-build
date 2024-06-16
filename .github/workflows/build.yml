@@ -9,7 +9,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [veloren-git, zrythm-git, floorp-bin]
+        repos: [zrythm, floorp-bin]
         include:
           - repos: git-cola
             preinstall-pkgs: "at-spi2-core"
