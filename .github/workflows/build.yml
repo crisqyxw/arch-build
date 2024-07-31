@@ -9,7 +9,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [zrythm, floorp-bin]
+        repos: [veloren, wechat-uos-qt, liteloader-qqnt-bin, linuxqq-nt-bwrap]
         include:
           - repos: git-cola
             preinstall-pkgs: "at-spi2-core"
